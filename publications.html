@@ -1,441 +1,252 @@
 <!DOCTYPE html>
-
-<!--
- // WEBSITE: https://themefisher.com
- // TWITTER: https://twitter.com/themefisher
- // FACEBOOK: https://www.facebook.com/themefisher
- // GITHUB: https://github.com/themefisher/
--->
-
-<html lang="en-us">
-
-
-<html lang="en-us">
+<html lang="en">
 
 <head>
    <meta charset="utf-8">
-   <title>Publications | Naren Akash</title>
+   <title>Publications — Naren Akash R J</title>
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <meta name="description" content="Research publications by Naren Akash R J: medical image computing, clinical AI deployment, and multimodal machine learning, including papers at MICCAI, ISBI and SAIL.">
+   <meta name="author" content="Naren Akash R J">
+   <link rel="canonical" href="https://www.narenakash.com/publications.html">
 
-   <!-- mobile responsive meta -->
-   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
-   <meta name="description" content="Naren Akash">
-   <meta name="author" content="Naren Akash">
+   <meta property="og:type" content="website">
+   <meta property="og:title" content="Publications — Naren Akash R J">
+   <meta property="og:description" content="Papers at MICCAI, ISBI and SAIL on medical image computing and clinical AI deployment.">
+   <meta property="og:url" content="https://www.narenakash.com/publications.html">
+   <meta property="og:image" content="https://www.narenakash.com/images/naren_miccai2024.png">
+   <meta name="twitter:card" content="summary">
 
-   <!-- plugins -->
-   <link rel="preload" href="https://fonts.gstatic.com/s/opensans/v18/mem8YaGs126MiZpBA-UFWJ0bbck.woff2" style="font-display: optional;">
-   <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
-   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:600%7cOpen&#43;Sans&amp;display=swap" media="screen">
+   <script>
+      (function () {
+         try {
+            var t = localStorage.getItem('theme');
+            if (!t) t = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+            document.documentElement.setAttribute('data-theme', t);
+         } catch (e) {}
+      })();
+   </script>
 
-   <link rel="stylesheet" href="plugins/themify-icons/themify-icons.css">
-   <link rel="stylesheet" href="plugins/slick/slick.css">
-
-   <!-- Main Stylesheet -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
    <link rel="stylesheet" href="css/style.css">
-
-   <!--Favicon-->
-   <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
-   <link rel="icon" href="images/favicon.png" type="image/x-icon">
+   <link rel="icon" href="images/favicon.png" type="image/png">
 </head>
 
 <body>
-<!-- navigation -->
-<header class="sticky-top bg-white border-bottom border-default">
-		<div class="container">
-
-		<nav class="navbar navbar-expand-lg navbar-white">
-			<a class="navbar-brand" href="index.html">
-			<img class="img-fluid" width="250px" src="images/logo.png" alt="Naren Akash">
-			</a>
-		<button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation">
-			<i class="ti-menu"></i>
-		</button>
-
-		<div class="collapse navbar-collapse text-center" id="navigation">
-			<ul class="navbar-nav ml-auto">
-				<li class="nav-item">
-				   <a class="nav-link" href="index.html"><b>About</b></a>
-				</li>
-				<li class="nav-item">
-				   <a class="nav-link" href="publications.html"><b style="color:#bc6d46;">Publications</b></a>
-				</li>
-				<li class="nav-item">
-				   <a class="nav-link" href="research.html"><b>Research Projects</b></a>
-				</li>
-				<li class="nav-item">
-				   <a class="nav-link" href="teaching-talks.html"><b>Teaching and Talks</b></a>
-				</li>
-				<li class="nav-item">
-				   <a class="nav-link" href="service.html"><b>Service</b></a>
-				</li>
-				<li class="nav-item">
-				   <a class="nav-link" href="contact.html"><b>Contact</b></a>
-				</li>
-			 </ul>
-
-
-			</div>
-		</nav>
-	</div>
+<header class="site-header">
+   <div class="container">
+      <nav class="nav">
+         <a class="nav-brand" href="index.html">Naren Akash&nbsp;R&nbsp;J</a>
+         <div class="nav-right">
+            <ul class="nav-links">
+               <li><a href="index.html">About</a></li>
+               <li><a href="publications.html" aria-current="page">Publications</a></li>
+               <li><a href="research.html">Research</a></li>
+               <li><a href="talks-service.html">Talks &amp; Service</a></li>
+            </ul>
+            <button class="icon-btn theme-toggle" aria-label="Toggle dark mode">
+               <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+               <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+            </button>
+            <button class="icon-btn nav-burger" aria-label="Menu" aria-expanded="false">
+               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+            </button>
+         </div>
+      </nav>
+   </div>
 </header>
-<!-- /navigation -->
 
-<section class="section">
-	<div class="container">
-		<div class="row">
-			<div class="col-12">
-				<div class="title-bordered mb-5 d-flex align-items-center">
-					<h1 class="h4">Research Publications</h1>
-				</div>
-				<p style="font-size:16px">For details on <strong>my ongoing research projects</strong> and areas of interest, please visit the <a href='research.html'>Research Projects tab</a>.</p>
-			</div>
-			<div class="col-12  mb-5 mb-lg-0">
+<main>
+   <div class="container">
 
-				<p align="right" style="font-size: 30px;">Edited Conference Proceedings</p>
-				<hr><br>
+      <h1 class="page-title">Publications</h1>
+      <p class="page-intro">Peer-reviewed papers, preprints and edited volumes. For ongoing work and areas of interest, see <a href="research.html">Research</a>. A full record is on <a href="https://scholar.google.com/citations?user=hLg35bwAAAAJ" target="_blank" rel="noopener">Google Scholar</a>.</p>
 
-				<!-- Proceeding -->
-				<article class="row mb-3">
-					<div class="col-md-3 mb-4 mb-md-0">
-						<div class="post-slider slider-sm">
-							<img loading="lazy" src="images/post/emerge2025_cover.jpg" class="img-fluid" alt="post-thumb" style="height:100px; object-fit: cover;">
-						</div>
-					</div>
-					<div class="col-md-9">
-						<h3 class="h5"><a class="post-title" href="publications.html">Empowering Medical Image Computing and Research Through Early-Career Expertise, Second MICCAI Student Board Workshop, EMERGE 2025</a></h3>
-						<p style="font-size: 16px;">
-							Springer LNCS Volume Editors: <b style="color:#222222; border-bottom: 1px dashed #999;">Naren Akash</b>, Cosmin Bercea, and Amar Kumar<br>
-							<font style="font-size: 15px;">28th International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI) 2025</font>
-						</p>
-						<a href="https://link.springer.com/book/9783032241818" class="btn btn-outline-primary" style="height:30px;width:70px;color:#aba9a9;">Link</a> &nbsp;
-					</div>
-				</article>
+      <h2 class="year-heading">Edited Conference Proceedings</h2>
 
-				<!-- Proceeding -->
-				<article class="row mb-3">
-					<div class="col-md-3 mb-4 mb-md-0">
-						<div class="post-slider slider-sm">
-							<img loading="lazy" src="images/post/emerge2024_cover.jpg" class="img-fluid" alt="post-thumb" style="height:100px; object-fit: cover;">
-						</div>
-					</div>
-					<div class="col-md-9">
-						<h3 class="h5"><a class="post-title" href="publications.html">Medical Information Computing, First MICCAI Meets Africa Workshop, MImA 2024, and First MICCAI Student Board Workshop on Empowering Medical Information Computing and Research through Early-Career Expertise, EMERGE 2024</a></h3>
-						<p style="font-size: 16px;">
-							Springer CCIS Volume Editors: Udunna Anazodo, <b style="color:#222222; border-bottom: 1px dashed #999;">Naren Akash</b>, Moritz Fuchs, Celia Cintas, Alessandro Crimi, Tinahse Mutsvangwa, Farouk Dako, and Willam Ogallo<br>
-							<font style="font-size: 15px;">27th International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI) 2024</font>
-						</p>
-						<a href="https://link.springer.com/book/10.1007/978-3-031-79103-1" class="btn btn-outline-primary" style="height:30px;width:70px;color:#aba9a9;">Link</a> &nbsp;
-					</div>
-				</article>
+      <article class="pub">
+         <img class="pub-thumb" loading="lazy" src="images/post/emerge2025_cover.jpg" alt="EMERGE 2025 proceedings cover">
+         <div>
+            <h3 class="pub-title">Empowering Medical Image Computing and Research Through Early-Career Expertise &mdash; Second MICCAI Student Board Workshop, EMERGE 2025</h3>
+            <p class="pub-authors">Springer LNCS volume editors: <span class="me">Naren Akash</span>, Cosmin Bercea and Amar Kumar</p>
+            <p class="pub-venue">28th International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI) 2025</p>
+            <div class="pub-links">
+               <a href="https://link.springer.com/book/9783032241818" target="_blank" rel="noopener">Springer</a>
+            </div>
+         </div>
+      </article>
 
-				<br>
-				<p align="right" style="font-size: 30px;">2026</p>
-				<hr><br>
+      <article class="pub">
+         <img class="pub-thumb" loading="lazy" src="images/post/emerge2024_cover.jpg" alt="EMERGE 2024 proceedings cover">
+         <div>
+            <h3 class="pub-title">Medical Information Computing &mdash; First MICCAI Meets Africa Workshop, MImA 2024, and First MICCAI Student Board Workshop, EMERGE 2024</h3>
+            <p class="pub-authors">Springer CCIS volume editors: Udunna Anazodo, <span class="me">Naren Akash</span>, Moritz Fuchs, Celia Cintas, Alessandro Crimi, Tinahse Mutsvangwa, Farouk Dako and Willam Ogallo</p>
+            <p class="pub-venue">27th International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI) 2024</p>
+            <div class="pub-links">
+               <a href="https://link.springer.com/book/10.1007/978-3-031-79103-1" target="_blank" rel="noopener">Springer</a>
+            </div>
+         </div>
+      </article>
 
-				<!-- Paper -->
-				<article class="row mb-5">
-					<div class="col-md-3 mb-4 mb-md-0">
-						<div class="post-slider slider-sm">
-							<img loading="lazy" src="https://img.freepik.com/premium-vector/loading-icon-outline-set-sign_1223784-6277.jpg" class="img-fluid" alt="post-thumb" style="height:200px; object-fit: cover;">
-						</div>
-					</div>
-					<div class="col-md-9">
-						<h3 class="h5"><a class="post-title" href="publications.html">MeDxAgent: Multi-Agent Consultation for Interactive Medical Diagnosis</a></h3>
-						<p style="font-size: 16px;">
-							Akshat Sanghvi, <b style="color:#222222; border-bottom: 1px dashed #999;">Naren Akash</b>, Raza Imam, <a href="https://amit-sharma.github.io/">Amit Sharma</a>, <a href="https://mohitjaindr.github.io/">Mohit Jain</a><br>
-							<font style="font-size: 15px;color:#804000">Conference Pre-print - Under Review</font>
-						</p>
-						<p></p>
-						<a href="" class="btn btn-outline-primary" style="height:30px;width:70px;color:#aba9a9;">arXiv</a> &nbsp;
-						<a target="_blank" href="" class="btn btn-outline-primary" style="height:30px;width:70px;color:#aba9a9;">PDF</a> &nbsp;
-						<a href="" class="btn btn-outline-primary" style="height:30px;width:60px;color:#aba9a9;">Code</a> &nbsp;
-					</div>
-				</article>
+      <h2 class="year-heading">2026</h2>
 
-				<!-- Paper -->
-				<article class="row mb-5">
-					<div class="col-md-3 mb-4 mb-md-0">
-						<div class="post-slider slider-sm">
-							<img loading="lazy" src="https://img.freepik.com/premium-vector/loading-icon-outline-set-sign_1223784-6277.jpg" class="img-fluid" alt="post-thumb" style="height:200px; object-fit: cover;">
-						</div>
-					</div>
-					<div class="col-md-9">
-						<h3 class="h5"><a class="post-title" href="publications.html">Do Medical Vision Models Understand Anatomy? Probing the Inductive Biases of Spatial Reasoning</a></h3>
-						<p style="font-size: 16px;">
-							<b style="color:#222222; border-bottom: 1px dashed #999;">Naren Akash</b>, Neeraja Ramanan<br>
-							<font style="font-size: 15px;color:#804000">Conference Pre-print Coming Soon</font>
-						</p>
-						<p></p>
-						<a href="" class="btn btn-outline-primary" style="height:30px;width:70px;color:#aba9a9;">arXiv</a> &nbsp;
-						<a target="_blank" href="" class="btn btn-outline-primary" style="height:30px;width:70px;color:#aba9a9;">PDF</a> &nbsp;
-						<a href="" class="btn btn-outline-primary" style="height:30px;width:60px;color:#aba9a9;">Code</a> &nbsp;
-					</div>
-				</article>
+      <article class="pub no-thumb">
+         <div>
+            <h3 class="pub-title">MeDxAgent: Multi-Agent Consultation for Interactive Medical Diagnosis</h3>
+            <p class="pub-authors">Akshat Sanghvi, <span class="me">Naren Akash</span>, Raza Imam, <a href="https://amit-sharma.github.io/" target="_blank" rel="noopener">Amit Sharma</a> and <a href="https://mohitjaindr.github.io/" target="_blank" rel="noopener">Mohit Jain</a></p>
+            <p class="pub-venue"><span class="badge">Under review</span></p>
+         </div>
+      </article>
 
-				<!-- Paper -->
-				<article class="row mb-5">
-					<div class="col-md-3 mb-4 mb-md-0">
-						<div class="post-slider slider-sm">
-							<img loading="lazy" src="https://img.freepik.com/premium-vector/loading-icon-outline-set-sign_1223784-6277.jpg" class="img-fluid" alt="post-thumb" style="height:200px; object-fit: cover;">
-						</div>
-					</div>
-					<div class="col-md-9">
-						<h3 class="h5"><a class="post-title" href="publications.html">Can Ambient AI Documentation Withstand a Real-World Stress Test in High-Volume Multilingual Practice? Safety Signals and the Deployment Envelope</a></h3>
-						<p style="font-size: 16px;">
-							<b style="color:#222222; border-bottom: 1px dashed #999;">Naren Akash</b>, Prateek Pareek, Gnapika Chowdary, Krutali Khokhar, Muzzammil, Juhi Rais, Naveen Reddy, Rakesh Kalapala, Kinjal Saxena, <a href="https://en.wikipedia.org/wiki/D._Nageshwar_Reddy">Duvvur Nageshwar Reddy</a><br>
-							<font style="font-size: 15px;">In Symposium on Artificial Intelligence in Learning Health Systems (SAIL) 2026 <i>at Puerto Rico, United States of America</i></font>
-						</p>
-						<p></p>
-						<a href="" class="btn btn-outline-primary" style="height:30px;width:70px;color:#aba9a9;">arXiv</a> &nbsp;
-						<a target="_blank" href="" class="btn btn-outline-primary" style="height:30px;width:70px;color:#aba9a9;">PDF</a> &nbsp;
-						<a href="" class="btn btn-outline-primary" style="height:30px;width:60px;color:#aba9a9;">Code</a> &nbsp;
-					</div>
-				</article>
+      <article class="pub no-thumb">
+         <div>
+            <h3 class="pub-title">Do Medical Vision Models Understand Anatomy? Probing the Inductive Biases of Spatial Reasoning</h3>
+            <p class="pub-authors"><span class="me">Naren Akash</span> and Neeraja Ramanan</p>
+            <p class="pub-venue"><span class="badge">Preprint coming soon</span></p>
+         </div>
+      </article>
 
+      <article class="pub no-thumb">
+         <div>
+            <h3 class="pub-title">Can Ambient AI Documentation Withstand a Real-World Stress Test in High-Volume Multilingual Practice? Safety Signals and the Deployment Envelope</h3>
+            <p class="pub-authors"><span class="me">Naren Akash</span>, Prateek Pareek, Gnapika Chowdary, Krutali Khokhar, Muzzammil, Juhi Rais, Naveen Reddy, Rakesh Kalapala, Kinjal Saxena and <a href="https://en.wikipedia.org/wiki/D._Nageshwar_Reddy" target="_blank" rel="noopener">Duvvur Nageshwar Reddy</a></p>
+            <p class="pub-venue">Symposium on Artificial Intelligence in Learning Health Systems (SAIL) 2026, <em>Puerto Rico, USA</em></p>
+         </div>
+      </article>
 
-				<p align="right" style="font-size: 30px;">2025</p>
-				<hr><br>
+      <h2 class="year-heading">2025</h2>
 
-				<!-- Paper -->
-				<article class="row mb-5">
-					<div class="col-md-3 mb-4 mb-md-0">
-						<div class="post-slider slider-sm">
-							<img loading="lazy" src="images/post/project_thumbnail-14.png" class="img-fluid" alt="post-thumb" style="height:200px; object-fit: cover;">
-							<img loading="lazy" src="images/post/project_thumbnail-15.png" class="img-fluid" alt="post-thumb" style="height:200px; object-fit: cover;">
-							<img loading="lazy" src="images/post/project_thumbnail-16.png" class="img-fluid" alt="post-thumb" style="height:200px; object-fit: cover;">
-						</div>
-					</div>
-					<div class="col-md-9">
-						<h3 class="h5"><a class="post-title" href="publications.html">Phase-Informed Tool Segmentation for Manual Small-Incision Cataract Surgery</a></h3>
-						<p style="font-size: 16px;">
-							<a href="">Bhuvan Sachdeva</a>*, <b style="color:#222222; border-bottom: 1px dashed #999;">Naren Akash</b>*, Tajamul Ashraf, Simon Mueller, Thomas Schultz, Maximilian W. M. Wintergerst, Niharika Singri Prasad, Kaushik Murali and <a href="https://mohitjaindr.github.io/">Mohit Jain</a> &nbsp; <font style="font-size: 15px">(* = equal contribution, joint-first authors)</font><br>
-							<font style="font-size: 15px;">In Medical Image Computing and Computer Assisted Interventions (MICCAI) 2025 <i>at Daejeon, South Korea</i></font>
-						</p>
-						<p></p> 
-						<a href="" class="btn btn-outline-primary" style="height:30px;width:70px;color:#aba9a9;">arXiv</a> &nbsp;
-						<a target="_blank" href="" class="btn btn-outline-primary" style="height:30px;width:70px;color:#aba9a9;">PDF</a> &nbsp;
-						<a target="_blank" href="" class="btn btn-outline-primary" style="height:30px;width:70px;color:#aba9a9;">Supp</a> &nbsp;
-						<a href="" class="btn btn-outline-primary" style="height:30px;width:60px;color:#aba9a9;">Code</a> &nbsp;
-					</div>
-				</article>
+      <article class="pub">
+         <img class="pub-thumb" loading="lazy" src="images/post/project_thumbnail-14.png" alt="Phase-informed tool segmentation">
+         <div>
+            <h3 class="pub-title">Phase-Informed Tool Segmentation for Manual Small-Incision Cataract Surgery</h3>
+            <p class="pub-authors">Bhuvan Sachdeva*, <span class="me">Naren Akash</span>*, Tajamul Ashraf, Simon Mueller, Thomas Schultz, Maximilian W. M. Wintergerst, Niharika Singri Prasad, Kaushik Murali and <a href="https://mohitjaindr.github.io/" target="_blank" rel="noopener">Mohit Jain</a> &nbsp;(* joint first authors)</p>
+            <p class="pub-venue">Medical Image Computing and Computer Assisted Intervention (MICCAI) 2025, <em>Daejeon, South Korea</em></p>
+            <div class="pub-links">
+               <a href="https://arxiv.org/abs/2411.16794" target="_blank" rel="noopener">arXiv</a>
+            </div>
+         </div>
+      </article>
 
-				
-				<!-- Paper -->
-				<article class="row mb-5">
-					<div class="col-md-3 mb-4 mb-md-0">
-						<div class="post-slider slider-sm">
-							<img loading="lazy" src="images/post/project_thumbnail-18.png" class="img-fluid" alt="post-thumb" style="height:200px; object-fit: cover;">
-							<img loading="lazy" src="images/post/project_thumbnail-17.png" class="img-fluid" alt="post-thumb" style="height:200px; object-fit: cover;">
-							<img loading="lazy" src="images/post/project_thumbnail-19.png" class="img-fluid" alt="post-thumb" style="height:200px; object-fit: cover;">
-						</div>
-					</div>
-					<div class="col-md-9">
-						<h3 class="h5"><a class="post-title" href="publications.html">Anatomy-Aware Hierarchical Graph Transformer for Multi-Disease Classification in Chest Computed Tomography</a></h3>
-						<p style="font-size: 16px;">
-							<b style="color:#222222; border-bottom: 1px dashed #999;">Naren Akash</b>, Rudransh Agarwal and <a href="https://scholar.google.co.in/citations?user=HfATfbMAAAAJ&hl=en">Jayanthi Sivaswamy</a></font><br>
-							<font style="font-size: 15px;color:#804000">Conference Pre-print - Under Review</font>
-						</p>
-						<p></p> 
-						<a href="" class="btn btn-outline-primary" style="height:30px;width:70px;color:#aba9a9;">arXiv</a> &nbsp;
-						<a target="_blank" href="" class="btn btn-outline-primary" style="height:30px;width:70px;color:#aba9a9;">PDF</a> &nbsp;
-						<a target="_blank" href="" class="btn btn-outline-primary" style="height:30px;width:70px;color:#aba9a9;">Supp</a> &nbsp;
-						<a href="" class="btn btn-outline-primary" style="height:30px;width:60px;color:#aba9a9;">Code</a> &nbsp;
-					</div>
-				</article>
+      <article class="pub">
+         <img class="pub-thumb" loading="lazy" src="images/post/project_thumbnail-18.png" alt="Anatomy-aware hierarchical graph transformer">
+         <div>
+            <h3 class="pub-title">Anatomy-Aware Hierarchical Graph Transformer for Multi-Disease Classification in Chest Computed Tomography</h3>
+            <p class="pub-authors"><span class="me">Naren Akash</span>, Rudransh Agarwal and <a href="https://scholar.google.co.in/citations?user=HfATfbMAAAAJ&amp;hl=en" target="_blank" rel="noopener">Jayanthi Sivaswamy</a></p>
+            <p class="pub-venue"><span class="badge">Under review</span></p>
+         </div>
+      </article>
 
+      <article class="pub">
+         <img class="pub-thumb" loading="lazy" src="images/post/project_thumbnail-20.png" alt="SynBADD longitudinal image imputation">
+         <div>
+            <h3 class="pub-title">SynBADD: Longitudinal Medical Image Imputation via Synthetic Bidirectional Anatomy-Guided Diffeomorphic Deformations</h3>
+            <p class="pub-authors"><a href="https://anirudhkaushik2003.github.io/" target="_blank" rel="noopener">Anirudh Kaushik</a>, <span class="me">Naren Akash</span> and <a href="https://scholar.google.co.in/citations?user=HfATfbMAAAAJ&amp;hl=en" target="_blank" rel="noopener">Jayanthi Sivaswamy</a></p>
+            <p class="pub-venue"><span class="badge">Under review</span> &nbsp;Journal version in preparation</p>
+         </div>
+      </article>
 
-				<!-- Paper -->
-				<article class="row mb-5">
-					<div class="col-md-3 mb-4 mb-md-0">
-						<div class="post-slider slider-sm">
-							<img loading="lazy" src="images/post/project_thumbnail-20.png" class="img-fluid" alt="post-thumb" style="height:200px; object-fit: cover;">
-							<img loading="lazy" src="images/post/project_thumbnail-21.png" class="img-fluid" alt="post-thumb" style="height:200px; object-fit: cover;">
-						</div>
-					</div>
-					<div class="col-md-9">
-						<h3 class="h5"><a class="post-title" href="publications.html">SynBADD: Longitudinal Medical Image Imputation Via Synthetic Bidirectional Anatomy-guided Diffeomorphic Deformations</a></h3>
-						<p style="font-size: 16px;">
-							<a href="https://anirudhkaushik2003.github.io/">Anirudh Kaushik</a>, <b style="color:#222222; border-bottom: 1px dashed #999;">Naren Akash</b> and <a href="https://scholar.google.co.in/citations?user=HfATfbMAAAAJ&hl=en">Jayanthi Sivaswamy</a></font><br>
-							<font style="font-size: 15px;color:#804000">Conference Pre-print - Under Review and Journal Pre-print - In Preparation</font>
-						</p>
-						<p></p> 
-						<a href="" class="btn btn-outline-primary" style="height:30px;width:70px;color:#aba9a9;">arXiv</a> &nbsp;
-						<a target="_blank" href="" class="btn btn-outline-primary" style="height:30px;width:70px;color:#aba9a9;">PDF</a> &nbsp;
-						<a target="_blank" href="" class="btn btn-outline-primary" style="height:30px;width:70px;color:#aba9a9;">Supp</a> &nbsp;
-						<a href="" class="btn btn-outline-primary" style="height:30px;width:60px;color:#aba9a9;">Code</a> &nbsp;
-					</div>
-				</article>
+      <h2 class="year-heading">2024</h2>
 
-				
+      <article class="pub">
+         <img class="pub-thumb" loading="lazy" src="images/post/project_thumbnail-07.png" alt="CheXtriev">
+         <div>
+            <h3 class="pub-title">CheXtriev: Anatomy Centered Representation for Case-Based Retrieval of Chest Radiographs</h3>
+            <p class="pub-authors"><span class="me">Naren Akash</span>*, <a href="https://arihanth007.github.io/porfolio/about.html" target="_blank" rel="noopener">Arihanth Srikar</a>* and <a href="https://scholar.google.co.in/citations?user=HfATfbMAAAAJ&amp;hl=en" target="_blank" rel="noopener">Jayanthi Sivaswamy</a> &nbsp;(* equal contribution)</p>
+            <p class="pub-venue">Medical Image Computing and Computer Assisted Intervention (MICCAI) 2024, <em>Marrakesh, Morocco</em></p>
+            <div class="pub-links">
+               <a href="papers/chextriev_miccai2024.pdf" target="_blank">PDF</a>
+               <a href="papers/chextriev_miccai2024_supp.pdf" target="_blank">Supplementary</a>
+               <a href="https://github.com/cvit-mip/chextriev" target="_blank" rel="noopener">Code</a>
+               <a href="https://cvit.iiit.ac.in/mip/projects/chextriev/" target="_blank" rel="noopener">Project page</a>
+            </div>
+         </div>
+      </article>
 
+      <article class="pub">
+         <img class="pub-thumb" loading="lazy" src="images/post/project_thumbnail-02.png" alt="Locate-then-Delineate">
+         <div>
+            <h3 class="pub-title">Locate-then-Delineate: A Free-Text Guided Approach for Pneumothorax Segmentation in Chest Radiographs</h3>
+            <p class="pub-authors"><a href="https://in.linkedin.com/in/samruddhi-shastri" target="_blank" rel="noopener">Samruddhi Shastri</a>*, <span class="me">Naren Akash</span>*, <a href="https://in.linkedin.com/in/lokeshgautham" target="_blank" rel="noopener">Lokesh Gautham</a> and <a href="https://scholar.google.co.in/citations?user=HfATfbMAAAAJ&amp;hl=en" target="_blank" rel="noopener">Jayanthi Sivaswamy</a> &nbsp;(* joint first authors)</p>
+            <p class="pub-venue">IEEE International Symposium on Biomedical Imaging (ISBI) 2024, <em>Athens, Greece</em></p>
+            <div class="pub-links">
+               <a href="papers/ptxseg_isbi2024.pdf" target="_blank">PDF</a>
+               <a href="https://github.com/samruddhishastri/Locate-then-Delineate/tree/main" target="_blank" rel="noopener">Code</a>
+               <a href="https://cvit.iiit.ac.in/mip/projects/ptxseg/" target="_blank" rel="noopener">Project page</a>
+            </div>
+         </div>
+      </article>
 
-				<p align="right" style="font-size: 30px;">2024</p>
-				<hr><br>
+      <article class="pub">
+         <img class="pub-thumb" loading="lazy" src="images/post/project_thumbnail-05.png" alt="Multi-organ segmentation in abdominal CT">
+         <div>
+            <h3 class="pub-title">Leveraging Spatial Guidance for Accurate Multi-Organ Segmentation in Abdominal CT</h3>
+            <p class="pub-authors"><a href="https://in.linkedin.com/in/samruddhi-shastri" target="_blank" rel="noopener">Samruddhi Shastri</a>, <span class="me">Naren Akash</span> and <a href="https://scholar.google.co.in/citations?user=HfATfbMAAAAJ&amp;hl=en" target="_blank" rel="noopener">Jayanthi Sivaswamy</a></p>
+            <p class="pub-venue"><span class="badge">Journal preprint under review</span></p>
+         </div>
+      </article>
 
-				<!-- Paper -->
-				<article class="row mb-5">
-					<div class="col-md-3 mb-4 mb-md-0">
-						<div class="post-slider slider-sm">
-							<img loading="lazy" src="images/post/project_thumbnail-07.png" class="img-fluid" alt="post-thumb" style="height:200px; object-fit: cover;">
-							<img loading="lazy" src="images/post/project_thumbnail-06.png" class="img-fluid" alt="post-thumb" style="height:200px; object-fit: cover;">
-						</div>
-					</div>
-					<div class="col-md-9">
-						<h3 class="h5"><a class="post-title" href="publications.html">CheXtriev: Anatomy Centered Representation for Case-Based Retrieval of CXRs</a></h3>
-						<p style="font-size: 16px;">
-							<b style="color:#222222; border-bottom: 1px dashed #999;">Naren Akash</b>*, <a href="https://arihanth007.github.io/porfolio/about.html">Arihanth Srikar</a>* and <a href="https://scholar.google.co.in/citations?user=HfATfbMAAAAJ&hl=en">Jayanthi Sivaswamy</a> &nbsp; <font style="font-size: 14px">(* = equal contribution)</font><br>
-							<font style="font-size: 15px;">In Medical Image Computing and Computer Assisted Interventions (MICCAI) 2024 <i>at Marrakesh, Morocco</i></font>
-						</p>
-						<p></p> 
-						<a href="" class="btn btn-outline-primary" style="height:30px;width:70px;color:#aba9a9;">arXiv</a> &nbsp;
-						<a target="_blank" href="papers/chextriev_miccai2024.pdf" class="btn btn-outline-primary" style="height:30px;width:70px">PDF</a> &nbsp;
-						<a target="_blank" href="papers/chextriev_miccai2024_supp.pdf" class="btn btn-outline-primary" style="height:30px;width:70px">Supp</a> &nbsp;
-						<a href="https://github.com/cvit-mip/chextriev" class="btn btn-outline-primary" style="height:30px;width:60px">Code</a> &nbsp;
-						<a href="https://cvit.iiit.ac.in/mip/projects/chextriev/" class="btn btn-outline-primary" style="height:30px;width:100px">Webpage</a> &nbsp;
-					</div>
-				</article>
-					
-				<!-- Paper -->
-				<article class="row mb-5">
-					<div class="col-md-3 mb-4 mb-md-0">
-						<div class="post-slider slider-sm">
-							<img loading="lazy" src="images/post/project_thumbnail-02.png" class="img-fluid" alt="post-thumb" style="height:200px; object-fit: cover;">
-							<img loading="lazy" src="images/post/project_thumbnail-01.png" class="img-fluid" alt="post-thumb" style="height:200px; object-fit: cover;">
-						</div>
-					</div>
-					<div class="col-md-9">
-						<h3 class="h5"><a class="post-title" href="publications.html">Locate-then-Delineate: A Free-Text Guided Approach for Pneumothorax Segmentation in Chest Radiographs</a></h3>
-						<p style="font-size: 16px;">
-							<a href="https://in.linkedin.com/in/samruddhi-shastri">Samruddhi Shastri</a>*, <b style="color:#222222; border-bottom: 1px dashed #999;">Naren Akash</b>*, <a href="https://in.linkedin.com/in/lokeshgautham">Lokesh Gautham</a> and <a href="https://scholar.google.co.in/citations?user=HfATfbMAAAAJ&hl=en">Jayanthi Sivaswamy</a>&nbsp; <font style="font-size: 15px">(* = joint-first authors)</font><br>
-							<font style="font-size: 15px;">In IEEE International Symposium on Biomedical Imaging (ISBI), 2024 <i>at Athens, Greece</i></font>
-						</p>
-						<p></p> 
-						<a href="" class="btn btn-outline-primary" style="height:30px;width:70px;color:#aba9a9;">arXiv</a> &nbsp;
-						<a target="_blank" href="papers/ptxseg_isbi2024.pdf" class="btn btn-outline-primary" style="height:30px;width:50px">PDF</a> &nbsp;
-						<a href="https://github.com/samruddhishastri/Locate-then-Delineate/tree/main" class="btn btn-outline-primary" style="height:30px;width:60px">Code</a> &nbsp;
-						<a href="https://cvit.iiit.ac.in/mip/projects/ptxseg/" class="btn btn-outline-primary" style="height:30px;width:100px">Webpage</a> &nbsp;
-					</div>
-				</article>
+      <article class="pub">
+         <img class="pub-thumb" loading="lazy" src="images/post/project_thumbnail-12.png" alt="AnaVu 3D anatomy visualization">
+         <div>
+            <h3 class="pub-title">AnaVu: A Practical 3D Visualization System for Integrative Teaching of Radiological and Medical Gross Anatomy in Large Classrooms</h3>
+            <p class="pub-authors"><a href="https://scholar.google.co.in/citations?user=HfATfbMAAAAJ&amp;hl=en" target="_blank" rel="noopener">Jayanthi Sivaswamy</a>, Pawan Harish, <span class="me">Naren Akash</span>, Rudransh Agarwal, Shreyas Palley, Anirudh Kaushik, Priyanka Srivastava, Vuppala Janaki, Doris Yohannan, Sirisha Bandi, Sarada Devi Sattiraju and <a href="https://faculty.iiit.ac.in/~pjn/" target="_blank" rel="noopener">P&nbsp;J&nbsp;Narayanan</a></p>
+            <p class="pub-venue"><span class="badge">Journal preprint under review</span></p>
+            <div class="pub-links">
+               <a href="papers/anavu2024.pdf" target="_blank">PDF</a>
+               <a href="https://cvit.iiit.ac.in/mip/projects/anavu/" target="_blank" rel="noopener">Project page</a>
+            </div>
+            <p class="pub-note">In the media: <a href="https://www.financialexpress.com/jobs-career/education-iiith-introduces-vr-facility-at-osmania-medical-college-for-advanced-anatomy-teaching-3182012/" target="_blank" rel="noopener">Financial Express</a>, <a href="https://telanganatoday.com/iiit-hyderabad-sets-up-vr-facility-at-omc" target="_blank" rel="noopener">Telangana Today</a>, <a href="https://medicaldialogues.in/news/education/medical-colleges/virtual-reality-facility-set-up-at-osmania-medical-college-for-teaching-anatomy-to-mbbs-students-114731" target="_blank" rel="noopener">Medical Dialogues</a></p>
+         </div>
+      </article>
 
-				<!-- Paper -->
-				<article class="row mb-5">
-					<div class="col-md-3 mb-4 mb-md-0">
-						<div class="post-slider slider-sm">
-							<img loading="lazy" src="images/post/project_thumbnail-05.png" class="img-fluid" alt="post-thumb" style="height:200px; object-fit: cover;">
-							<img loading="lazy" src="images/post/project_thumbnail-04.png" class="img-fluid" alt="post-thumb" style="height:200px; object-fit: cover;">
-						</div>
-					</div>
-					<div class="col-md-9">
-						<h3 class="h5"><a class="post-title" href="publications.html">Leveraging Spatial Guidance for Accurate Multi-Organ Segmentation in Abdominal CT</a></h3>
-						<p style="font-size: 16px;">
-							<a href="https://in.linkedin.com/in/samruddhi-shastri">Samruddhi Shastri</a>, <b style="color:#222222; border-bottom: 1px dashed #999;">Naren Akash</b> and <a href="https://scholar.google.co.in/citations?user=HfATfbMAAAAJ&hl=en">Jayanthi Sivaswamy</a><br>
-							<font style="font-size: 15px;color:#804000">Journal Pre-print - Under Review</font>
-						</p>
-						<p></p> 
-						<a href="" class="btn btn-outline-primary" style="height:30px;width:50px;color:#aba9a9;">PDF</a> &nbsp;
-						<a href="" class="btn btn-outline-primary" style="height:30px;width:100px;color:#aba9a9;">Webpage</a> &nbsp;
-					</div>
-				</article>
+      <h2 class="year-heading">2023</h2>
 
-				<!-- Paper -->
-				<article class="row mb-5">
-					<div class="col-md-3 mb-4 mb-md-0">
-						<div class="post-slider slider-sm">
-							<img loading="lazy" src="images/post/project_thumbnail-12.png" class="img-fluid" alt="post-thumb" style="height:200px; object-fit: cover;">
-							<img loading="lazy" src="images/post/project_thumbnail-11.png" class="img-fluid" alt="post-thumb" style="height:200px; object-fit: cover;">
-						</div>
-					</div>
-					<div class="col-md-9">
-						<h3 class="h5"><a class="post-title" href="publications.html">AnaVu: A Practical 3D Visualization System for Integrative Teaching of Radiological and Medical Gross Anatomy in Large Classrooms</a></h3>
-						<p style="font-size: 16px;">
-							<a href="https://scholar.google.co.in/citations?user=HfATfbMAAAAJ&hl=en">Jayanthi Sivaswamy</a>, Pawan Harish, <b style="color:#222222; border-bottom: 1px dashed #999;">Naren Akash</b>, Rudransh Agarwal, Shreyas Palley, Anirudh Kaushik, Priyanka Srivastava, Vuppala Janaki, Doris Yohannan, Sirisha Bandi, Sarada Devi Sattiraju and <a href="https://faculty.iiit.ac.in/~pjn/">P J Narayanan</a><br>
-							<font style="color:#f10c0c">Media:&nbsp;
-							<a style="color:#a60303ed; border-bottom: 1px dashed #999;" href="https://www.financialexpress.com/jobs-career/education-iiith-introduces-vr-facility-at-osmania-medical-college-for-advanced-anatomy-teaching-3182012/" target="_blank">Financial Express</a>, &nbsp;
-							<a style="color:#a60303ed; border-bottom: 1px dashed #999;" href="https://telanganatoday.com/iiit-hyderabad-sets-up-vr-facility-at-omc" target="_blank">Telangana Today</a>, &nbsp;
-							<a style="color:#a60303ed; border-bottom: 1px dashed #999;" href="https://medicaldialogues.in/news/education/medical-colleges/virtual-reality-facility-set-up-at-osmania-medical-college-for-teaching-anatomy-to-mbbs-students-114731" target="_blank">Medical Dialogues </a>
-							</font>
-							<br>
-							<font style="font-size: 15px;color:#804000">Journal Pre-print - Under Review</font>
-						</p>
-						<p></p> 
-						<a target="_blank" href="papers/anavu2024.pdf" class="btn btn-outline-primary" style="height:30px;width:50px">PDF</a> &nbsp;
-						<a href="https://cvit.iiit.ac.in/mip/projects/anavu/" class="btn btn-outline-primary" style="height:30px;width:100px">Webpage</a> &nbsp;
-					</div>
-				</article>
+      <article class="pub">
+         <img class="pub-thumb" loading="lazy" src="images/post/project_thumbnail-08.png" alt="MelDD differential diagnosis of melanoma">
+         <div>
+            <h3 class="pub-title">Evidence Driven Differential Diagnosis of Malignant Melanoma</h3>
+            <p class="pub-authors"><span class="me">Naren Akash</span>, <a href="https://anirudhkaushik2003.github.io/" target="_blank" rel="noopener">Anirudh Kaushik</a> and <a href="https://scholar.google.co.in/citations?user=HfATfbMAAAAJ&amp;hl=en" target="_blank" rel="noopener">Jayanthi Sivaswamy</a></p>
+            <p class="pub-venue">MICCAI ISIC Skin Image Analysis Workshop 2023 (oral), <em>Vancouver, Canada</em></p>
+            <div class="pub-links">
+               <a href="https://link.springer.com/chapter/10.1007/978-3-031-47401-9_6" target="_blank" rel="noopener">Springer</a>
+               <a href="papers/meldd_miccai2023.pdf" target="_blank">PDF</a>
+               <a href="papers/meldd_miccai2023_slides.pdf" target="_blank">Slides</a>
+            </div>
+         </div>
+      </article>
 
-				<p align="right" style="font-size: 30px;">2023</p>
-				<hr><br>
+      <h2 class="year-heading">2022</h2>
 
-				<!-- Paper -->
-				<article class="row mb-5">
-					<div class="col-md-3 mb-4 mb-md-0">
-						<div class="post-slider slider-sm">
-							<img loading="lazy" src="images/post/project_thumbnail-08.png" class="img-fluid" alt="post-thumb" style="height:200px; object-fit: cover;">
-							<img loading="lazy" src="images/post/project_thumbnail-09.png" class="img-fluid" alt="post-thumb" style="height:200px; object-fit: cover;">
-							<img loading="lazy" src="images/post/project_thumbnail-10.png" class="img-fluid" alt="post-thumb" style="height:200px; object-fit: cover;">
-						</div>
-					</div>
-					<div class="col-md-9">
-						<h3 class="h5"><a class="post-title" href="publications.html">Evidence Driven Differential Diagnosis of Malignant Melanoma</a></h3>
-						<p style="font-size: 16px;">
-							<b style="color:#222222; border-bottom: 1px dashed #999;">Naren Akash</b>, <a href="https://anirudhkaushik2003.github.io/">Anirudh Kaushik</a> and <a href="https://scholar.google.co.in/citations?user=HfATfbMAAAAJ&hl=en">Jayanthi Sivaswamy</a><br>
-							<font style="font-size: 15px;">In Medical Image Computing and Computer Assisted Interventions (MICCAI) ISIC-WS 2023 <i>at Vancouver, Canada</i></font>
-						</p>
-						<p></p> 
-						<a href="" class="btn btn-outline-primary" style="height:30px;width:70px;color:#aba9a9;">arXiv</a> &nbsp;
-						<a href="https://link.springer.com/chapter/10.1007/978-3-031-47401-9_6" class="btn btn-outline-primary" style="height:30px;width:70px">Paper</a> &nbsp;
-						<a target="_blank" href="papers/meldd_miccai2023.pdf" class="btn btn-outline-primary" style="height:30px;width:50px">PDF</a> &nbsp;
-						<a href="" class="btn btn-outline-primary" style="height:30px;width:60px">Code</a> &nbsp;
-						<a target="_blank" href="papers/meldd_miccai2023_slides.pdf" class="btn btn-outline-primary" style="height:30px;width:100px">Slides</a> &nbsp;
-					</div>
-				</article>
+      <article class="pub">
+         <img class="pub-thumb" loading="lazy" src="images/post/project_thumbnail-13.png" alt="Size bias in subcortical structure segmentation">
+         <div>
+            <h3 class="pub-title">A Method to Remove Size Bias in Sub-cortical Structure Segmentation</h3>
+            <p class="pub-authors">Mythri Venkatesh*, Alphin Thottupattu*, <span class="me">Naren Akash</span> and <a href="https://scholar.google.co.in/citations?user=HfATfbMAAAAJ&amp;hl=en" target="_blank" rel="noopener">Jayanthi Sivaswamy</a> &nbsp;(* joint first authors)</p>
+            <p class="pub-venue">IEEE International Symposium on Biomedical Imaging (ISBI) 2022, <em>Kolkata, India</em></p>
+            <div class="pub-links">
+               <a href="https://ieeexplore.ieee.org/document/9761673" target="_blank" rel="noopener">IEEE</a>
+               <a href="papers/bias_isbi2022.pdf" target="_blank">PDF</a>
+            </div>
+         </div>
+      </article>
 
-				<p align="right" style="font-size: 30px;">2022</p>
-				<hr><br>
+   </div>
+</main>
 
-				<!-- Paper -->
-				<article class="row mb-5">
-					<div class="col-md-3 mb-4 mb-md-0">
-						<div class="post-slider slider-sm">
-							<img loading="lazy" src="images/post/project_thumbnail-13.png" class="img-fluid" alt="post-thumb" style="height:200px; object-fit: cover;">
-						</div>
-					</div>
-					<div class="col-md-9">
-						<h3 class="h5"><a class="post-title" publications.html">A Method to Remove Size Bias in Sub-cortical Structure Segmentation</a></h3>
-						<p style="font-size: 16px;">
-							Mythri Venkatesh*, Alphin Thottupattu*, <b style="color:#222222; border-bottom: 1px dashed #999;">Naren Akash</b> and <a href="https://scholar.google.co.in/citations?user=HfATfbMAAAAJ&hl=en">Jayanthi Sivaswamy</a>&nbsp; <font style="font-size: 12px">(* = joint-first authors)</font><br>
-							In IEEE International Symposium on Biomedical Imaging (ISBI) 2022 <i>at Kolkata, India</i>
-						</p>
-						<p></p> 
-						<a href="https://ieeexplore.ieee.org/document/9761673" class="btn btn-outline-primary" style="height:30px;width:70px">Paper</a> &nbsp;
-						<a target="_blank" href="papers/bias_isbi2022.pdf" class="btn btn-outline-primary" style="height:30px;width:50px">PDF</a> &nbsp;
-						<a href="" class="btn btn-outline-primary" style="height:30px;width:60px">Code</a> &nbsp;
-					</div>
-				</article>
+<footer class="site-footer">
+   <div class="container">
+      <span>&copy; 2026 Naren Akash R J</span>
+      <div class="footer-links">
+         <a href="https://scholar.google.com/citations?user=hLg35bwAAAAJ" target="_blank" rel="noopener">Scholar</a>
+         <a href="https://github.com/narenakash" target="_blank" rel="noopener">GitHub</a>
+         <a href="https://www.linkedin.com/in/narenakash-rj/" target="_blank" rel="noopener">LinkedIn</a>
+         <a href="https://x.com/NarenAkash" target="_blank" rel="noopener">X</a>
+      </div>
+   </div>
+</footer>
 
-			</div>
-		</div>
-	</div>
-</section>
-
-	<footer class="section-sm pb-0 border-top border-default">
-		<div class="container">
-		<div class="scroll-top">
-			<a href="javascript:void(0);" id="scrollTop"><i class="ti-angle-up"></i></a>
-		</div>
-		<div class="text-center">
-			<p class="content">&copy; Copyright <script>document.write(/\d{4}/.exec(Date())[0])</script>
-				Naren Akash <br> <font style="font-size: 10px;">Design &amp; Develop By <a href="https://themefisher.com/" target="_blank">Themefisher</a></font></p>
-		</div>
-		</div>
-	</footer>
-
-
-<!-- JS Plugins -->
-<script src="plugins/jQuery/jquery.min.js"></script>
-<script src="plugins/bootstrap/bootstrap.min.js" async></script>
-<script src="plugins/slick/slick.min.js"></script>
-
-<!-- Main Script -->¯
 <script src="js/script.js"></script>
 </body>
 </html>
