@@ -1,308 +1,186 @@
 <!DOCTYPE html>
-
-<!--
- // WEBSITE: https://themefisher.com
- // TWITTER: https://twitter.com/themefisher
- // FACEBOOK: https://www.facebook.com/themefisher
- // GITHUB: https://github.com/themefisher/
--->
-
-<html lang="en-us">
-
-
-<html lang="en-us">
+<html lang="en">
 
 <head>
    <meta charset="utf-8">
-   <title>Publications | Naren Akash</title>
+   <title>Research — Naren Akash R J</title>
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <meta name="description" content="Ongoing and completed research projects by Naren Akash R J: clinical AI deployment at AIG Hospitals, medical image analysis at IIIT Hyderabad, and healthcare AI systems at Microsoft Research.">
+   <meta name="author" content="Naren Akash R J">
+   <link rel="canonical" href="https://www.narenakash.com/research.html">
 
-   <!-- mobile responsive meta -->
-   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
-   <meta name="description" content="Naren Akash">
-   <meta name="author" content="Naren Akash">
+   <meta property="og:type" content="website">
+   <meta property="og:title" content="Research — Naren Akash R J">
+   <meta property="og:description" content="Clinical AI deployment at AIG Hospitals, medical image analysis at IIIT Hyderabad, and healthcare AI systems at Microsoft Research.">
+   <meta property="og:url" content="https://www.narenakash.com/research.html">
+   <meta property="og:image" content="https://www.narenakash.com/images/naren_miccai2024.png">
+   <meta name="twitter:card" content="summary">
 
-   <!-- plugins -->
-   <link rel="preload" href="https://fonts.gstatic.com/s/opensans/v18/mem8YaGs126MiZpBA-UFWJ0bbck.woff2" style="font-display: optional;">
-   <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
-   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:600%7cOpen&#43;Sans&amp;display=swap" media="screen">
+   <script>
+      (function () {
+         try {
+            var t = localStorage.getItem('theme');
+            if (!t) t = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+            document.documentElement.setAttribute('data-theme', t);
+         } catch (e) {}
+      })();
+   </script>
 
-   <link rel="stylesheet" href="plugins/themify-icons/themify-icons.css">
-   <link rel="stylesheet" href="plugins/slick/slick.css">
-
-   <!-- Main Stylesheet -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
    <link rel="stylesheet" href="css/style.css">
-
-   <!--Favicon-->
-   <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
-   <link rel="icon" href="images/favicon.png" type="image/x-icon">
+   <link rel="icon" href="images/favicon.png" type="image/png">
 </head>
 
 <body>
-<!-- navigation -->
-<header class="sticky-top bg-white border-bottom border-default">
-		<div class="container">
-
-		<nav class="navbar navbar-expand-lg navbar-white">
-			<a class="navbar-brand" href="index.html">
-			<img class="img-fluid" width="250px" src="images/logo.png" alt="Naren Akash">
-			</a>
-		<button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation">
-			<i class="ti-menu"></i>
-		</button>
-
-		<div class="collapse navbar-collapse text-center" id="navigation">
-			<ul class="navbar-nav ml-auto">
-				<li class="nav-item">
-				   <a class="nav-link" href="index.html"><b>About</b></a>
-				</li>
-				<li class="nav-item">
-				   <a class="nav-link" href="publications.html"><b>Publications</b></a>
-				</li>
-				<li class="nav-item">
-				   <a class="nav-link" href="research.html"><b style="color:#bc6d46;">Research Projects</b></a>
-				</li>
-				<li class="nav-item">
-				   <a class="nav-link" href="teaching-talks.html"><b>Teaching and Talks</b></a>
-				</li>
-				<li class="nav-item">
-				   <a class="nav-link" href="service.html"><b>Service</b></a>
-				</li>
-				<li class="nav-item">
-				   <a class="nav-link" href="contact.html"><b>Contact</b></a>
-				</li>
-			 </ul>
-
-
-			</div>
-		</nav>
-	</div>
+<header class="site-header">
+   <div class="container">
+      <nav class="nav">
+         <a class="nav-brand" href="index.html">Naren Akash&nbsp;R&nbsp;J</a>
+         <div class="nav-right">
+            <ul class="nav-links">
+               <li><a href="index.html">About</a></li>
+               <li><a href="publications.html">Publications</a></li>
+               <li><a href="research.html" aria-current="page">Research</a></li>
+               <li><a href="talks-service.html">Talks &amp; Service</a></li>
+            </ul>
+            <button class="icon-btn theme-toggle" aria-label="Toggle dark mode">
+               <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+               <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+            </button>
+            <button class="icon-btn nav-burger" aria-label="Menu" aria-expanded="false">
+               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+            </button>
+         </div>
+      </nav>
+   </div>
 </header>
-<!-- /navigation -->
 
-<section class="section">
-	<div class="container">
-		<div class="row">
-			<div class="col-12">
-				<div class="title-bordered mb-5 d-flex align-items-center">
-					<h1 class="h4">Research Interests and Ongoing Projects</h1>
-				</div>
-				<p style="font-size:16px">For details on my <b>publications</b>, visit the <a href='publications.html'>Publications tab</a>. To see <b>select (product development) projects</b> that I have worked on previously, <a href="#completed_projects">click here</a>.</p><br>
-			</div>
+<main>
+   <div class="container">
 
-			<div class="col-12 mb-5 mb-lg-0">
-				<p align="right" style="font-size: 30px;">Ongoing at AIG Hospitals</p>
-				<hr><br>
-		
-				<!-- <article class="row mb-5">
-				  <div class="col-md-3 mb-4 mb-md-0">
-					<div class="post-slider slider-sm">
-					  <img loading="lazy" class="rounded-lg img-fluid" src="images/projects/current_projects-aig-01.png">
-					</div>
-				  </div>
-				  <div class="col-md-9">
-					<h3 class="h5">Multilingual Ambient Consultation Scribing, Clinical Coding, and Order Management</h3>
-					<p style="font-size: 16px;">Principal Investigator(s): <b style="color:#222222; border-bottom: 1px dashed #999;">Naren Akash</b><br>
-					A large-scale real-world deployment of over 1000 consultations daily across 20 departments in 10+ Indian languages, used by 100+ superspecialists. The system enables multilingual ambient scribing, real-time ICD coding, and structured order generation. It features traceability from summary to source audio, medical text normalization, and accent/dialect robustness, powered by a context-adaptive reasoning engine.</p>
-				  </div>
-				</article>
-		
-				<article class="row mb-5">
-				  <div class="col-md-3 mb-4 mb-md-0">
-					<div class="post-slider slider-sm">
-					  <img loading="lazy" class="rounded-lg img-fluid" src="images/projects/current_projects-aig-02.png">
-					</div>
-				  </div>
-				  <div class="col-md-9">
-					<h3 class="h5">Digitization of Paper-Based ECGs for Cardiovascular Risk Prediction</h3>
-					<p style="font-size: 16px;">Principal Investigator(s): <b style="color:#222222; border-bottom: 1px dashed #999;">Naren Akash</b>, Sayan Kahali<br>
-					Designed for Global South settings where paper-based ECGs are prevalent. Combines smartphone-based capture and digitization with downstream AI for early detection of CVD. Enables cost-effective mass screening via Asian Healthcare Foundation.</p>
-				  </div>
-				</article>
-		
-				<article class="row mb-5">
-				  <div class="col-md-3 mb-4 mb-md-0">
-					<div class="post-slider slider-sm">
-					  <img loading="lazy" class="rounded-lg img-fluid" src="images/projects/current_projects-aig-03.png">
-					</div>
-				  </div>
-				  <div class="col-md-9">
-					<h3 class="h5">Foundation Model for Abdominal Ultrasound Acquisition and Interpretation</h3>
-					<p style="font-size: 16px;">Principal Investigator(s): <b style="color:#222222; border-bottom: 1px dashed #999;">Naren Akash</b><br>
-					Building a generalizable model for understanding and guiding real-time abdominal ultrasound, enabling acquisition support, anatomy-aware parsing, and report structuring for radiology and hepatology.</p>
-				  </div>
-				</article>
-		
-				<article class="row mb-5">
-				  <div class="col-md-3 mb-4 mb-md-0">
-					<div class="post-slider slider-sm">
-					  <img loading="lazy" class="rounded-lg img-fluid" src="images/projects/current_projects-aig-04.png">
-					</div>
-				  </div>
-				  <div class="col-md-9">
-					<h3 class="h5">Vision-Language Models for Multimodal Oncology Imaging</h3>
-					<p style="font-size: 16px;">Principal Investigator(s): <b style="color:#222222; border-bottom: 1px dashed #999;">Naren Akash</b><br>
-					Developing unified models to jointly reason over PET-CT, MRI, and reports for cancer staging and treatment response monitoring. Explores structure-function fusion in GI and hepatobiliary cancers.</p>
-				  </div>
-				</article>
-		
-				<article class="row mb-5">
-				  <div class="col-md-3 mb-4 mb-md-0">
-					<div class="post-slider slider-sm">
-					  <img loading="lazy" class="rounded-lg img-fluid" src="images/projects/current_projects-aig-05.png">
-					</div>
-				  </div>
-				  <div class="col-md-9">
-					<h3 class="h5">AI-Augmented Clinical Workflow Platform for Radiology Reporting</h3>
-					<p style="font-size: 16px;">Principal Investigator(s): <b style="color:#222222; border-bottom: 1px dashed #999;">Naren Akash</b><br>
-					Designing an integrated platform combining dictation, templating, guideline-based field generation, and lesion-aware multimedia reporting. Incorporates patient-centered outputs and radiologist-in-the-loop optimization.</p>
-				  </div>
-				</article> -->
-		
-			  </div>
+      <h1 class="page-title">Research</h1>
+      <p class="page-intro">Ongoing projects and areas of interest. For published work, see <a href="publications.html">Publications</a>.</p>
 
-			<div class="col-12  mb-5 mb-lg-0">
+      <h2 class="year-heading">Ongoing at AIG Hospitals</h2>
 
+      <article class="pub">
+         <img class="pub-thumb" loading="lazy" src="images/projects/current_projects-aig-01.png" alt="Multilingual ambient consultation scribing">
+         <div>
+            <h3 class="pub-title">Multilingual Ambient Consultation Scribing, Clinical Coding and Order Management</h3>
+            <p class="pub-authors">Principal investigator: <span class="me">Naren Akash</span></p>
+            <p class="pub-venue">A large-scale real-world deployment of over 1,000 consultations daily across 20 departments in 10+ Indian languages, used by 100+ superspecialists. The system enables multilingual ambient scribing, real-time ICD coding and structured order generation, with traceability from summary to source audio, medical text normalization, and accent/dialect robustness, powered by a context-adaptive reasoning engine.</p>
+         </div>
+      </article>
 
+      <article class="pub">
+         <img class="pub-thumb" loading="lazy" src="images/projects/current_projects-aig-02.png" alt="Paper ECG digitization">
+         <div>
+            <h3 class="pub-title">Digitization of Paper-Based ECGs for Cardiovascular Risk Prediction</h3>
+            <p class="pub-authors">Principal investigators: <span class="me">Naren Akash</span> and Sayan Kahali</p>
+            <p class="pub-venue">Designed for Global South settings where paper-based ECGs are prevalent. Combines smartphone-based capture and digitization with downstream AI for early detection of cardiovascular disease, enabling cost-effective mass screening via the Asian Healthcare Foundation.</p>
+         </div>
+      </article>
 
-				<p align="right" style="font-size: 30px;">Ongoing at IIIT Hyderabad</p>
-				<hr><br>
+      <article class="pub">
+         <img class="pub-thumb" loading="lazy" src="images/projects/current_projects-aig-03.png" alt="Ultrasound foundation model">
+         <div>
+            <h3 class="pub-title">Foundation Model for Abdominal Ultrasound Acquisition and Interpretation</h3>
+            <p class="pub-authors">Principal investigator: <span class="me">Naren Akash</span></p>
+            <p class="pub-venue">Building a generalizable model for understanding and guiding real-time abdominal ultrasound, enabling acquisition support, anatomy-aware parsing and report structuring for radiology and hepatology.</p>
+         </div>
+      </article>
 
-				<!-- Project -->
-				<!-- <article class="row mb-5">
-					<div class="col-md-3 mb-4 mb-md-0">
-						<div class="post-slider slider-sm">
-							<img loading="lazy" class="rounded-lg img-fluid" src="images/projects/current_projects-iiit-01.png">
-						</div>
-					</div>
-					<div class="col-md-9">
-						<h3 class="h5"><a class="post-title" href="research.html">Segmental-Anatomy Inspired Graph Models for 3D Lung CT Pathology Classification</a></h3>
-						<p style="font-size: 16px;">
-							Team Members: <b style="color:#222222; border-bottom: 1px dashed #999;">Naren Akash</b>, Rudransh Agarwal and Jayanthi Sivaswamy
-							<br><br>
-							Developing an anatomy-inspired graph model of the lung based on morphology from 3D CT volumes to analyze spatial distribution and texture patterns of diffuse parenchymal diseases using graph neural networks.
-						</p>
-					</div>
-				</article> -->
+      <article class="pub no-thumb">
+         <div>
+            <h3 class="pub-title">Vision-Language Models for Multimodal Oncology Imaging</h3>
+            <p class="pub-authors">Principal investigator: <span class="me">Naren Akash</span></p>
+            <p class="pub-venue">Developing unified models to jointly reason over PET-CT, MRI and reports for cancer staging and treatment response monitoring. Explores structure-function fusion in GI and hepatobiliary cancers.</p>
+         </div>
+      </article>
 
-				<!-- Project -->
-				<!-- <article class="row mb-5">
-					<div class="col-md-3 mb-4 mb-md-0">
-						<div class="post-slider slider-sm">
-							<img loading="lazy" class="rounded-lg img-fluid" src="images/projects/current_projects-iiit-02.png">
-						</div>
-					</div>
-					<div class="col-md-9">
-						<h3 class="h5"><a class="post-title" href="research.html">End-to-End Free-Text Guided Pathology Segmentation in Medical Images</a></h3>
-						<p style="font-size: 16px;">
-							Team Members: <b style="color:#222222; border-bottom: 1px dashed #999;">Naren Akash</b>, Shreyas Reddy Palley and Jayanthi Sivaswamy
-							<br><br>
-							Formulating methods to effectively integrate free-text medical reports (more the norm in a clinical setting than structured reports), which complement image data with detailed descriptions of findings, into segmentation pipelines for improved pathology delineation.
-						</p>
-					</div>
-				</article> -->
+      <article class="pub no-thumb">
+         <div>
+            <h3 class="pub-title">AI-Augmented Clinical Workflow Platform for Radiology Reporting</h3>
+            <p class="pub-authors">Principal investigator: <span class="me">Naren Akash</span></p>
+            <p class="pub-venue">Designing an integrated platform combining dictation, templating, guideline-based field generation and lesion-aware multimedia reporting. Incorporates patient-centered outputs and radiologist-in-the-loop optimization.</p>
+         </div>
+      </article>
 
-				<!-- Project -->
-				<!-- <article class="row mb-5">
-					<div class="col-md-3 mb-4 mb-md-0">
-						<div class="post-slider slider-sm">
-							<img loading="lazy" class="rounded-lg img-fluid" src="images/projects/current_projects-iiit-03.png">
-						</div>
-					</div>
-					<div class="col-md-9">
-						<h3 class="h5"><a class="post-title" href="research.html">Exploiting Spatial Relationships as an Explicit Prior for 3D Anatomy Segmentation</a></h3>
-						<p style="font-size: 16px;">
-							Team Members: <b style="color:#222222; border-bottom: 1px dashed #999;">Naren Akash</b>, Soham Vatsal Vaishnav and Jayanthi Sivaswamy
-							<br><br>
-							Leveraging the inherent spatial arrangement of organs in the human body as an explicit prior to enhance segmentation performance in challenging medical images.
-						</p>
-					</div>
-				</article> -->
+      <h2 class="year-heading">Ongoing at IIIT Hyderabad</h2>
 
-				<!-- Project -->
-				<!-- <article class="row mb-5">
-					<div class="col-md-3 mb-4 mb-md-0">
-						<div class="post-slider slider-sm">
-							<img loading="lazy" class="rounded-lg img-fluid" src="images/projects/current_projects-iiit-04.png">
-						</div>
-					</div>
-					<div class="col-md-9">
-						<h3 class="h5"><a class="post-title" href="research.html">Anatomy Aware, Controllable 3D Brain Volume Generation</a></h3>
-						<p style="font-size: 16px;">
-							Team Members: Anirudh Kaushik, <b style="color:#222222; border-bottom: 1px dashed #999;">Naren Akash</b> and Jayanthi Sivaswamy
-							<br><br>
-							Developing methods for synthesizing 3D brain scans with improved controllability to manipulate anatomical and imaging features.
-						</p>
-					</div>
-				</article> -->
+      <article class="pub">
+         <img class="pub-thumb" loading="lazy" src="images/projects/current_projects-iiit-01.png" alt="Graph models for lung CT">
+         <div>
+            <h3 class="pub-title">Segmental-Anatomy Inspired Graph Models for 3D Lung CT Pathology Classification</h3>
+            <p class="pub-authors">With Rudransh Agarwal and Jayanthi Sivaswamy</p>
+            <p class="pub-venue">Developing an anatomy-inspired graph model of the lung based on morphology from 3D CT volumes to analyze spatial distribution and texture patterns of diffuse parenchymal diseases using graph neural networks.</p>
+         </div>
+      </article>
 
-				<p id="completed_projects"></p>
-				<p align="right" style="font-size: 30px;">Select Completed Projects</p>
-				<hr><br>
+      <article class="pub">
+         <img class="pub-thumb" loading="lazy" src="images/projects/current_projects-iiit-02.png" alt="Free-text guided pathology segmentation">
+         <div>
+            <h3 class="pub-title">End-to-End Free-Text Guided Pathology Segmentation in Medical Images</h3>
+            <p class="pub-authors">With Shreyas Reddy Palley and Jayanthi Sivaswamy</p>
+            <p class="pub-venue">Formulating methods to effectively integrate free-text medical reports &mdash; more the norm in a clinical setting than structured reports &mdash; into segmentation pipelines for improved pathology delineation.</p>
+         </div>
+      </article>
 
-				<p style="font-size:16px">Research-focused works aimed at academic publication, rather than product development, are detailed in the <a href="publications.html">Publications tab.</a></p>
-				<br><br>
+      <article class="pub">
+         <img class="pub-thumb" loading="lazy" src="images/projects/current_projects-iiit-03.png" alt="Spatial priors for 3D anatomy segmentation">
+         <div>
+            <h3 class="pub-title">Exploiting Spatial Relationships as an Explicit Prior for 3D Anatomy Segmentation</h3>
+            <p class="pub-authors">With Soham Vatsal Vaishnav and Jayanthi Sivaswamy</p>
+            <p class="pub-venue">Leveraging the inherent spatial arrangement of organs in the human body as an explicit prior to enhance segmentation performance in challenging medical images.</p>
+         </div>
+      </article>
 
-				<!-- Project -->
-				<article class="row mb-5">
-					<div class="col-md-3 mb-4 mb-md-0">
-						<div class="post-slider slider-sm">
-							<img loading="lazy" class="rounded-lg img-fluid" src="images/projects/completed_projects-msr-01.png">
-						</div>
-					</div>
-					<div class="col-md-9">
-						<h3 class="h5"><a class="post-title" href="research.html">Mulitmodal "Expert-in-the-Loop" Healthcare Chatbot using MLLMs and MM-RAG</a></h3>
-						<p style="font-size: 16px;">
-							Team Members: <b style="color:#222222; border-bottom: 1px dashed #999;">Naren Akash</b> and Mohit Jain (<a href="https://www.microsoft.com/en-us/research/">Microsoft Research</a>)
-							<br><br>
-							Designed a multimodal WhatsApp-based chatbot leveraging multimodal large language models and retrieval-augmented generation to meet the information needs of community health workers in India.
-						</p>
-					</div>
-				</article>
+      <article class="pub">
+         <img class="pub-thumb" loading="lazy" src="images/projects/current_projects-iiit-04.png" alt="Controllable 3D brain volume generation">
+         <div>
+            <h3 class="pub-title">Anatomy Aware, Controllable 3D Brain Volume Generation</h3>
+            <p class="pub-authors">With Anirudh Kaushik and Jayanthi Sivaswamy</p>
+            <p class="pub-venue">Developing methods for synthesizing 3D brain scans with improved controllability to manipulate anatomical and imaging features.</p>
+         </div>
+      </article>
 
-				<!-- Project -->
-				<article class="row mb-5">
-					<div class="col-md-3 mb-4 mb-md-0">
-						<div class="post-slider slider-sm">
-							<img loading="lazy" class="rounded-lg img-fluid" src="images/projects/completed_projects-msr-02.png">
-						</div>
-					</div>
-					<div class="col-md-9">
-						<h3 class="h5"><a class="post-title" href="research.html">vEHR: Voice-Based Patient and Doctor Facing  Health Records for the Margins</a></h3>
-						<p style="font-size: 16px;">
-							Team Members: Ananditha Raghunath, <b style="color:#222222; border-bottom: 1px dashed #999;">Naren Akash</b> and Mohit Jain (<a href="https://www.microsoft.com/en-us/research/">Microsoft Research</a>)
-							<br><br>
-							Developed voice-based technologies integrated with LLMs in a WhatsApp-based chatbot to optimize clinical documentation by enabling the creation, editing, and verification of health records from consultation audio.
-						</p>
-					</div>
-				</article>
+      <h2 class="year-heading">Select Completed Projects</h2>
 
-				
+      <article class="pub">
+         <img class="pub-thumb" loading="lazy" src="images/projects/completed_projects-msr-01.png" alt="Multimodal healthcare chatbot">
+         <div>
+            <h3 class="pub-title">Multimodal &ldquo;Expert-in-the-Loop&rdquo; Healthcare Chatbot Using MLLMs and MM-RAG</h3>
+            <p class="pub-authors">With <a href="https://mohitjaindr.github.io/" target="_blank" rel="noopener">Mohit Jain</a> (Microsoft Research)</p>
+            <p class="pub-venue">Designed a multimodal WhatsApp-based chatbot leveraging multimodal large language models and retrieval-augmented generation to meet the information needs of community health workers in India.</p>
+         </div>
+      </article>
 
+      <article class="pub">
+         <img class="pub-thumb" loading="lazy" src="images/projects/completed_projects-msr-02.png" alt="Voice-based health records">
+         <div>
+            <h3 class="pub-title">vEHR: Voice-Based Patient and Doctor Facing Health Records for the Margins</h3>
+            <p class="pub-authors">With Ananditha Raghunath and <a href="https://mohitjaindr.github.io/" target="_blank" rel="noopener">Mohit Jain</a> (Microsoft Research)</p>
+            <p class="pub-venue">Developed voice-based technologies integrated with LLMs in a WhatsApp-based chatbot to optimize clinical documentation by enabling the creation, editing and verification of health records from consultation audio.</p>
+         </div>
+      </article>
 
-			</div>
-		</div>
-	</div>
-</section>
+   </div>
+</main>
 
-	<footer class="section-sm pb-0 border-top border-default">
-		<div class="container">
-		<div class="scroll-top">
-			<a href="javascript:void(0);" id="scrollTop"><i class="ti-angle-up"></i></a>
-		</div>
-		<div class="text-center">
-			<p class="content">&copy; Copyright <script>document.write(/\d{4}/.exec(Date())[0])</script>
-				Naren Akash <br> <font style="font-size: 10px;">Design &amp; Develop By <a href="https://themefisher.com/" target="_blank">Themefisher</a></font></p>
-		</div>
-		</div>
-	</footer>
+<footer class="site-footer">
+   <div class="container">
+      <span>&copy; 2026 Naren Akash R J</span>
+      <div class="footer-links">
+         <a href="https://scholar.google.com/citations?user=hLg35bwAAAAJ" target="_blank" rel="noopener">Scholar</a>
+         <a href="https://github.com/narenakash" target="_blank" rel="noopener">GitHub</a>
+         <a href="https://www.linkedin.com/in/narenakash-rj/" target="_blank" rel="noopener">LinkedIn</a>
+         <a href="https://x.com/NarenAkash" target="_blank" rel="noopener">X</a>
+      </div>
+   </div>
+</footer>
 
-
-<!-- JS Plugins -->
-<script src="plugins/jQuery/jquery.min.js"></script>
-<script src="plugins/bootstrap/bootstrap.min.js" async></script>
-<script src="plugins/slick/slick.min.js"></script>
-
-<!-- Main Script -->¯
 <script src="js/script.js"></script>
 </body>
 </html>
