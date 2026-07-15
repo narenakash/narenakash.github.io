@@ -5,13 +5,13 @@
    <meta charset="utf-8">
    <title>Research — Naren Akash</title>
    <meta name="viewport" content="width=device-width, initial-scale=1">
-   <meta name="description" content="Ongoing and completed research projects by Naren Akash: clinical AI deployment at AIG Hospitals, medical image analysis at IIIT Hyderabad, and healthcare AI systems at Microsoft Research.">
+   <meta name="description" content="Ongoing research projects by Naren Akash: ambient scribes, agentic clinical documentation, radiology reporting and CT triage at AIG Hospitals, intraoperative registration at IIIT Hyderabad, and healthcare AI at Microsoft Research.">
    <meta name="author" content="Naren Akash">
    <link rel="canonical" href="https://www.narenakash.com/research.html">
 
    <meta property="og:type" content="website">
    <meta property="og:title" content="Research — Naren Akash">
-   <meta property="og:description" content="Clinical AI deployment at AIG Hospitals, medical image analysis at IIIT Hyderabad, and healthcare AI systems at Microsoft Research.">
+   <meta property="og:description" content="Ambient scribes, agentic clinical documentation, radiology reporting and CT triage at AIG Hospitals, and intraoperative registration at IIIT Hyderabad.">
    <meta property="og:url" content="https://www.narenakash.com/research.html">
    <meta property="og:image" content="https://www.narenakash.com/images/naren_miccai2024.png">
    <meta name="twitter:card" content="summary">
@@ -65,84 +65,69 @@
 
       <h2 class="year-heading">Ongoing at AIG Hospitals</h2>
 
-      <article class="pub">
-         <img class="pub-thumb" loading="lazy" src="images/projects/current_projects-aig-01.png" alt="Multilingual ambient consultation scribing">
+      <article class="pub no-thumb">
          <div>
-            <h3 class="pub-title">Multilingual Ambient Consultation Scribing, Clinical Coding and Order Management</h3>
-            <p class="pub-authors">Principal investigator: <span class="me">Naren Akash</span></p>
-            <p class="pub-venue">A large-scale real-world deployment of over 1,000 consultations daily across 20 departments in 10+ Indian languages, used by 100+ superspecialists. The system enables multilingual ambient scribing, real-time ICD coding and structured order generation, with traceability from summary to source audio, medical text normalization, and accent/dialect robustness, powered by a context-adaptive reasoning engine.</p>
-         </div>
-      </article>
-
-      <article class="pub">
-         <img class="pub-thumb" loading="lazy" src="images/projects/current_projects-aig-02.png" alt="Paper ECG digitization">
-         <div>
-            <h3 class="pub-title">Digitization of Paper-Based ECGs for Cardiovascular Risk Prediction</h3>
-            <p class="pub-authors">Principal investigators: <span class="me">Naren Akash</span> and Sayan Kahali</p>
-            <p class="pub-venue">Designed for Global South settings where paper-based ECGs are prevalent. Combines smartphone-based capture and digitization with downstream AI for early detection of cardiovascular disease, enabling cost-effective mass screening via the Asian Healthcare Foundation.</p>
-         </div>
-      </article>
-
-      <article class="pub">
-         <img class="pub-thumb" loading="lazy" src="images/projects/current_projects-aig-03.png" alt="Ultrasound foundation model">
-         <div>
-            <h3 class="pub-title">Foundation Model for Abdominal Ultrasound Acquisition and Interpretation</h3>
-            <p class="pub-authors">Principal investigator: <span class="me">Naren Akash</span></p>
-            <p class="pub-venue">Building a generalizable model for understanding and guiding real-time abdominal ultrasound, enabling acquisition support, anatomy-aware parsing and report structuring for radiology and hepatology.</p>
+            <h3 class="pub-title">Ambient Scribes for Clinical Documentation and Order Management in Indian Languages</h3>
+            <p class="pub-authors">PI and Individual Contributor: <span class="me">Naren Akash</span> &middot; Evaluation Clinical Collaborator: Dr Ratna Kumar Natta</p>
+            <p class="pub-venue">Development of the solution end to end, from a pilot study to a full hospital roll-out across 20+ medical specialties, along with evaluation of the real-world deployment.</p>
          </div>
       </article>
 
       <article class="pub no-thumb">
          <div>
-            <h3 class="pub-title">Vision-Language Models for Multimodal Oncology Imaging</h3>
-            <p class="pub-authors">Principal investigator: <span class="me">Naren Akash</span></p>
-            <p class="pub-venue">Developing unified models to jointly reason over PET-CT, MRI and reports for cancer staging and treatment response monitoring. Explores structure-function fusion in GI and hepatobiliary cancers.</p>
+            <h3 class="pub-title">Traceable Discharge Summary Generation using Agents</h3>
+            <p class="pub-authors">PI and Individual Contributor: <span class="me">Naren Akash</span></p>
+            <p class="pub-venue">Development of an agentic system that generates discharge summaries traceable to their source records, taken from a pilot study through hospital deployment and evaluation in real-world use.</p>
          </div>
       </article>
 
       <article class="pub no-thumb">
          <div>
-            <h3 class="pub-title">AI-Augmented Clinical Workflow Platform for Radiology Reporting</h3>
-            <p class="pub-authors">Principal investigator: <span class="me">Naren Akash</span></p>
-            <p class="pub-venue">Designing an integrated platform combining dictation, templating, guideline-based field generation and lesion-aware multimedia reporting. Incorporates patient-centered outputs and radiologist-in-the-loop optimization.</p>
+            <h3 class="pub-title">AI-Assisted Radiology Reporting Platform with Speech Recognition</h3>
+            <p class="pub-authors">PI and Individual Contributor: <span class="me">Naren Akash</span></p>
+            <p class="pub-venue">Development of a comprehensive reporting suite with templates, supporting both dictation and natural narration, guideline-based field generation and lesion-aware multimedia reporting.</p>
+         </div>
+      </article>
+
+      <article class="pub no-thumb">
+         <div>
+            <h3 class="pub-title">Abdomen CT for Triaging of Acute Conditions</h3>
+            <p class="pub-authors">PI and Individual Contributor: <span class="me">Naren Akash</span> &middot; Collaborators: Dr Tharani Putta, Dr Ashirwad Pasumarthy, Dr Sai Shravan</p>
+            <p class="pub-venue">Building a human-in-the-loop agentic system that extracts diagnoses, rather than findings, from free-text radiology reports, and using these labels to train models for triaging acute abdominal conditions on CT.</p>
+         </div>
+      </article>
+
+      <article class="pub no-thumb">
+         <div>
+            <h3 class="pub-title">Agentic System for Patient Pre-Consultation and Clinical Reasoning</h3>
+            <p class="pub-authors">PI: <a href="https://mohitjaindr.github.io/" target="_blank" rel="noopener">Mohit Jain</a> &middot; Collaborators: <span class="me">Naren Akash</span>, Akshat Sanghvi</p>
+            <p class="pub-venue">Building a system that converses with patients in real time before the consultation and suggests provisional diagnoses and lab investigations. Knowing which question to ask next within a compute budget is hard. A pilot study is being planned.</p>
+         </div>
+      </article>
+
+      <article class="pub no-thumb">
+         <div>
+            <h3 class="pub-title">Understanding the Use of LLMs by Physicians for Clinical Decision Support</h3>
+            <p class="pub-authors">PI: <a href="https://med.stanford.edu/profiles/shriti-raj" target="_blank" rel="noopener">Shriti Raj</a> &middot; Co-PI: <span class="me">Naren Akash</span> &middot; Clinical Collaborator: Dr Goutham Reddy</p>
+            <p class="pub-venue">Studying how physicians in the Global South actually use large language models for clinical decision support in everyday practice, to inform their safe and effective integration into care.</p>
+         </div>
+      </article>
+
+      <article class="pub no-thumb">
+         <div>
+            <h3 class="pub-title">Identifying Novel Biomarkers for Systemic Diseases from ECGs</h3>
+            <p class="pub-authors">PI: <span class="me">Naren Akash</span></p>
+            <p class="pub-venue">Investigating whether routinely collected ECGs carry signatures of systemic disease beyond the heart, opening a path to low-cost opportunistic screening.</p>
          </div>
       </article>
 
       <h2 class="year-heading">Ongoing at IIIT Hyderabad</h2>
 
-      <article class="pub">
-         <img class="pub-thumb" loading="lazy" src="images/projects/current_projects-iiit-01.png" alt="Graph models for lung CT">
+      <article class="pub no-thumb">
          <div>
-            <h3 class="pub-title">Segmental-Anatomy Inspired Graph Models for 3D Lung CT Pathology Classification</h3>
-            <p class="pub-authors">With Rudransh Agarwal and Jayanthi Sivaswamy</p>
-            <p class="pub-venue">Developing an anatomy-inspired graph model of the lung based on morphology from 3D CT volumes to analyze spatial distribution and texture patterns of diffuse parenchymal diseases using graph neural networks.</p>
-         </div>
-      </article>
-
-      <article class="pub">
-         <img class="pub-thumb" loading="lazy" src="images/projects/current_projects-iiit-02.png" alt="Free-text guided pathology segmentation">
-         <div>
-            <h3 class="pub-title">End-to-End Free-Text Guided Pathology Segmentation in Medical Images</h3>
-            <p class="pub-authors">With Shreyas Reddy Palley and Jayanthi Sivaswamy</p>
-            <p class="pub-venue">Formulating methods to effectively integrate free-text medical reports &mdash; more the norm in a clinical setting than structured reports &mdash; into segmentation pipelines for improved pathology delineation.</p>
-         </div>
-      </article>
-
-      <article class="pub">
-         <img class="pub-thumb" loading="lazy" src="images/projects/current_projects-iiit-03.png" alt="Spatial priors for 3D anatomy segmentation">
-         <div>
-            <h3 class="pub-title">Exploiting Spatial Relationships as an Explicit Prior for 3D Anatomy Segmentation</h3>
-            <p class="pub-authors">With Soham Vatsal Vaishnav and Jayanthi Sivaswamy</p>
-            <p class="pub-venue">Leveraging the inherent spatial arrangement of organs in the human body as an explicit prior to enhance segmentation performance in challenging medical images.</p>
-         </div>
-      </article>
-
-      <article class="pub">
-         <img class="pub-thumb" loading="lazy" src="images/projects/current_projects-iiit-04.png" alt="Controllable 3D brain volume generation">
-         <div>
-            <h3 class="pub-title">Anatomy Aware, Controllable 3D Brain Volume Generation</h3>
-            <p class="pub-authors">With Anirudh Kaushik and Jayanthi Sivaswamy</p>
-            <p class="pub-venue">Developing methods for synthesizing 3D brain scans with improved controllability to manipulate anatomical and imaging features.</p>
+            <h3 class="pub-title">Deformable 2D/3D Registration for Intraoperative Guidance</h3>
+            <p class="pub-authors">PI: <a href="https://faculty.iiit.ac.in/~pjn/" target="_blank" rel="noopener">P&nbsp;J&nbsp;Narayanan</a> &middot; Co-Advisor: <span class="me">Naren Akash</span> &middot; Mentee: <a href="https://in.linkedin.com/in/siddharth-mangipudi" target="_blank" rel="noopener">Siddharth Mangipudi</a></p>
+            <p class="pub-venue">Registering intraoperative X-ray to preoperative volumes via motion manifold learning, toward real-time guidance in the operating room.</p>
          </div>
       </article>
 
