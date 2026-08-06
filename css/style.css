@@ -479,6 +479,11 @@ main {
   vertical-align: 1px;
 }
 
+.badge-accent {
+  color: var(--accent);
+  background: var(--accent-soft);
+}
+
 .pub-links {
   display: flex;
   flex-wrap: wrap;
